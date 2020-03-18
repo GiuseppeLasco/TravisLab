@@ -1,9 +1,11 @@
-package TravisLab;
+package travislab;
+
+import java.util.logging.Logger;
 
 public class Hello {
 
 	public static void main(String[] args) {
-		logger.log("Hello World!");
+		Logger.getLogger("Hello World!");
 	}
 
 }

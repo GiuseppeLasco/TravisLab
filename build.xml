@@ -51,7 +51,7 @@
         <antcall target="build"/>
     </target>
     <target name="Hello">
-        <java classname="TravisLab.Hello" failonerror="true" fork="yes">
+        <java classname="travislab.Hello" failonerror="true" fork="yes">
             <classpath refid="run.Hello.classpath"/>
         </java>
     </target>
