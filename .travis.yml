@@ -1,11 +1,11 @@
 language: java
 jdk:
-    -openjdk8
+    - openjdk8
 
 addons:
     sonarcloud:
         organization: giuseppelasco
         token: 711cb280b4d60652dceabfcda04f11230733c46d
 script:
-    -ant build
-    -sonar scanner
+    - ant build
+    - sonar-scanner
